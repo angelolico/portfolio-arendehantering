@@ -1,0 +1,26 @@
+[
+  {
+    "caseId": "CASE-1001",
+    "title": "Ändring av kontaktuppgifter",
+    "status": "Pågår",
+    "priority": "Normal"
+  },
+  {
+    "caseId": "CASE-1002",
+    "title": "Begäran om komplettering",
+    "status": "Väntar",
+    "priority": "Hög"
+  },
+  {
+    "caseId": "CASE-1003",
+    "title": "Kontroll av inskickat underlag",
+    "status": "Pågår",
+    "priority": "Normal"
+  },
+  {
+    "caseId": "CASE-1004",
+    "title": "Avslut av ärende",
+    "status": "Avslutat",
+    "priority": "Låg"
+  }
+]

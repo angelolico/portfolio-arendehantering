@@ -1,0 +1,9 @@
+Test Case ID,Requirement ID,Title,Priority,Preconditions,Steps,Expected Result,Execution Status
+TC-001,REQ-001,Kontrollera att ärendelistan visar grundinformation,Hög,"Testdata finns tillgänglig","1. Öppna ärendelistan","Varje rad visar ärende-ID rubrik och status","Ej körd"
+TC-002,REQ-002,Sök efter ett befintligt ärende-ID,Hög,"CASE-1001 finns i testdata","1. Ange CASE-1001 i sökfältet 2. Starta sökningen","Endast det matchande ärendet visas","Ej körd"
+TC-003,REQ-003,Sök efter ett okänt ärende-ID,Medel,"Ärendelistan är tillgänglig","1. Ange CASE-9999 2. Starta sökningen","Ett tydligt meddelande visar att inget ärende hittades","Ej körd"
+TC-004,REQ-004,Filtrera ärenden efter status,Hög,"Det finns ärenden med olika statusar","1. Välj status Pågår i filtret","Endast ärenden med status Pågår visas","Ej körd"
+TC-005,REQ-005,Kontrollera att detaljvyn matchar listan,Hög,"CASE-1001 finns i listan","1. Öppna CASE-1001 2. Jämför ID och status","Detaljvyn visar samma ID och status som listan","Ej körd"
+TC-006,REQ-006,Genomför sökning med tomt sökfält,Låg,"Ärendelistan är tillgänglig","1. Lämna sökfältet tomt 2. Starta sökningen","Gränssnittet kraschar inte och visar ett begripligt resultat eller valideringsmeddelande","Ej körd"
+TC-007,REQ-002,Sök med extra blanksteg runt ärende-ID,Medel,"CASE-1001 finns i testdata","1. Ange ' CASE-1001 ' 2. Starta sökningen","Systemet hanterar blankstegen enligt specificerat beteende; för detta exempel förväntas ärendet hittas","Ej körd"
+TC-008,REQ-004,Välj en status utan matchande ärenden,Låg,"Det finns inga ärenden med status Avslutat i den valda testmängden","1. Välj status Avslutat","En tom lista eller ett tydligt meddelande visas utan tekniskt fel","Ej körd"
